@@ -383,6 +383,7 @@ section {
 
 #about {
   position: relative;
+  overflow: hidden;
 }
 
 #about::before {
@@ -473,6 +474,22 @@ section {
   width: 400px;
   background-color: var(--secondary-color);
   border-radius: 64% 36% 27% 73% / 74% 41% 59% 26%;
+}
+
+.text-container {
+  padding: 20px; 
+  max-width: 800px;
+  margin: 0 auto; 
+  line-height: 1.6; 
+  font-family: 'Arial', sans-serif; 
+  text-align: justify; 
+  hyphens: auto;
+  word-break: break-word;
+}
+
+.text-container p {
+  margin: 0; 
+  padding-bottom: 10px; 
 }
 
 /* EXPERIENCE SECTION */

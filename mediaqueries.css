@@ -77,6 +77,10 @@
     display: none;
   }
 
+  .text-container {
+    padding: 10px;
+  }
+
   #contact,
   footer {
     height: 40vh;
