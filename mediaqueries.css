@@ -45,9 +45,18 @@
 
 @media screen and (max-width: 600px) {
 
+  nav {
+    justify-content: space-between;
+  }
+
+  .hamburger-menu {
+    margin-right: 30px;
+  }
+
   svg {
     height: 65px;
     margin-top: 15px;
+    margin-left: 30px;
   }
 
   #about {

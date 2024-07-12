@@ -768,11 +768,11 @@
             <h2 class="experience-sub-title project-title">Special Template JS</h2>
             <div class="btn-container">
               <button class="btn btn-color-2 project-btn"
-                onclick="location.href='https://template-5-special.vercel.app/'">
+                onclick="location.href='https://github.com/amen-ramadan/template-5-special.git'">
                 Github
               </button>
               <button class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/amen-ramadan/template-5-special.git'">
+                onclick="location.href='https://template-5-special.vercel.app/'">
                 Live Demo
               </button>
             </div>
@@ -855,7 +855,10 @@
       <p>Copyright &#169; 2024 Amen Ramadan. All Rights Reserved.</p>
     </footer>
   </div>
-  <script src="/main.js"></script>
+  <script type="module">
+    import { toggleMenu } from './main.js';
+    window.toggleMenu = toggleMenu; 
+  </script>
 </body>
 
 </html>

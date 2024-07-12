@@ -1,4 +1,4 @@
-function toggleMenu() {
+export function toggleMenu() {
   const menu = document.querySelector(".menu-links");
   const icon = document.querySelector(".hamburger-icon");
   menu.classList.toggle("open");
@@ -37,8 +37,6 @@ colorList.forEach(function (li) {
     //set color on local storage
     localStorage.setItem("color_option", e.target.dataset.color);
 
-    //  تقوم بحذف كلاس ال active
-    handleActive(e);
   });
 });
 
