@@ -1,3 +1,13 @@
+@media screen and (min-width: 1400px) {
+  .color-container  {
+    width: 30%;
+    img {
+      height: 260px;
+    }
+  }
+}
+
+
 @media screen and (max-width: 1180px) {
   #desktop-nav {
     display: none;
@@ -40,6 +50,28 @@
   .about-containers {
     margin-top: 0;
     justify-content: center;
+  }
+  .color-container  {
+    img {
+      height: 300px;
+    }
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .color-container {
+    img {
+        height: 260px;
+    }
+}
+}
+
+@media screen and (max-width: 700px) {
+  .color-container {
+    width: 100%;
+    img {
+      height: auto;
+    }
   }
 }
 
@@ -87,9 +119,6 @@
   }
   #profile {
     margin-bottom: 0;
-  }
-  .color-container {
-    width: 100%;
   }
   #about {
     &::before {
