@@ -5,10 +5,12 @@
   <meta charset="UTF-8" />
   <link rel="icon" type="image/svg+xml" href="/icon.svg" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Welcome to the personal website of Amen Ramadan, a dedicated Front End Developer proficient in JavaScript. Explore my portfolio, projects, and professional journey in the field of web development.">
+  <meta name="description"
+    content="Welcome to the personal website of Amen Ramadan, a dedicated Front End Developer proficient in JavaScript. Explore my portfolio, projects, and professional journey in the field of web development.">
   <title>Amen Ramadan - Front End Developer</title>
   <link rel="stylesheet" href="style.css" />
   <link rel="stylesheet" href="mediaqueries.css" />
+  <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.min.css">
 </head>
 
 <body>
@@ -259,8 +261,8 @@
       <h4>Colors</h4>
       <ul class="color-list">
         <li class="active" data-color="#002c2b"></li>
-        <li data-color="#056d819e"></li>
-        <li data-color="#413d3d"></li>
+        <li data-color="#3c0366"></li>
+        <li data-color="#193cb8"></li>
         <li data-color="#655643"></li>
         <li data-color="#770101"></li>
       </ul>
@@ -510,8 +512,8 @@
               <h4>Colors</h4>
               <ul class="color-list">
                 <li class="active" data-color="#002c2b"></li>
-                <li data-color="#056d819e"></li>
-                <li data-color="#413d3d"></li>
+                <li data-color="#3c0366"></li>
+                <li data-color="#193cb8"></li>
                 <li data-color="#655643"></li>
                 <li data-color="#770101"></li>
               </ul>
@@ -563,6 +565,20 @@
               <h3>Education</h3>
               <p>Hsoub Academy<br />Elzero Web School</p>
             </div>
+            <div class="details-container certificates-container">
+              <i class="fa-solid fa-certificate"></i>
+              <h3>Certificates</h3>
+              <div class="certificates-grid">
+                <div class="certificate-card" onclick="window.open('/1ZWKFPZZ2SA2BU8L11VUSMMK.pdf')">
+                  <i class="fas fa-award"></i>
+                  <div class="certificate-info">
+                    <h4>Frontend Development</h4>
+                    <p>Hsoub Academy</p>
+                    <span class="certificate-date">2023</span>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
           <div class="text-container">
             <p>As a frontend developer, I've gained proficiency in React and Next.js frameworks, collaborating
@@ -591,84 +607,84 @@
         <h2 class="experience-sub-title">Frontend Development</h2>
         <div class="article-container">
           <article>
-            <img src="checkmark.png" alt="Experience icon" class="icon" />
+            <i class="fa-solid fa-n icon"></i>
             <div>
-              <h3>Next Js </h3>
+              <h3>Next Js</h3>
               <p>Basic</p>
             </div>
           </article>
           <article>
-            <img src="checkmark.png" alt="Experience icon" class="icon" />
+            <i class="fa-brands fa-react icon"></i>
             <div>
               <h3>React</h3>
               <p>Intermediate</p>
             </div>
           </article>
           <article>
-            <img src="checkmark.png" alt="Experience icon" class="icon" />
+            <i class="fa-brands fa-html5 icon"></i>
             <div>
               <h3>HTML</h3>
               <p>Experienced</p>
             </div>
           </article>
           <article>
-            <img src="checkmark.png" alt="Experience icon" class="icon" />
+            <i class="fa-brands fa-css3-alt icon"></i>
             <div>
               <h3>CSS</h3>
               <p>Experienced</p>
             </div>
           </article>
           <article>
-            <img src="checkmark.png" alt="Experience icon" class="icon" />
+            <i class="fa-brands fa-sass icon"></i>
             <div>
               <h3>SASS</h3>
               <p>Experienced</p>
             </div>
           </article>
           <article>
-            <img src="checkmark.png" alt="Experience icon" class="icon" />
+            <i class="fa-brands fa-square-js icon"></i>
             <div>
               <h3>JavaScript</h3>
               <p>Intermediate</p>
             </div>
           </article>
           <article>
-            <img src="checkmark.png" alt="Experience icon" class="icon" />
+            <i class="fa-solid fa-t icon"></i>
             <div>
               <h3>TypeScript</h3>
               <p>Intermediate</p>
             </div>
           </article>
           <article>
-            <img src="checkmark.png" alt="Experience icon" class="icon" />
+            <i class="fas fa-palette icon"></i>
             <div>
               <h3>Material UI</h3>
               <p>Basic</p>
             </div>
           </article>
           <article>
-            <img src="checkmark.png" alt="Experience icon" class="icon" />
+            <i class="fas fa-brush icon"></i>
             <div>
               <h3>Tailwind</h3>
               <p>Intermediate</p>
             </div>
           </article>
           <article>
-            <img src="checkmark.png" alt="Experience icon" class="icon" />
+            <i class="fa-brands fa-git-alt icon"></i>
             <div>
               <h3>Git</h3>
               <p>Experienced</p>
             </div>
           </article>
           <article>
-            <img src="checkmark.png" alt="Experience icon" class="icon" />
+            <i class="fa-solid fa-cube icon"></i>
             <div>
               <h3>Webpack</h3>
               <p>Intermediate</p>
             </div>
           </article>
           <article>
-            <img src="checkmark.png" alt="Experience icon" class="icon" />
+            <i class="fas fa-puzzle-piece icon"></i>
             <div>
               <h3>libraries js</h3>
               <p>Intermediate</p>
@@ -676,8 +692,6 @@
           </article>
         </div>
       </div>
-      <!-- </div>
-        </div> -->
       <img src="arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#projects'" />
     </section>
     <section id="projects">
@@ -687,7 +701,7 @@
         <div class="about-containers">
           <div class="details-container color-container">
             <div class="article-container">
-              <img src="project-1.png" alt="Project 1" class="project-img" />
+              <img loading="lazy" src="project-1.png" alt="Project 1" class="project-img" />
             </div>
             <h2 class="experience-sub-title project-title">countries information API</h2>
             <div class="btn-container">
@@ -703,7 +717,23 @@
           </div>
           <div class="details-container color-container">
             <div class="article-container">
-              <img src="project-2.png" alt="Project 2" class="project-img" />
+              <img loading="lazy" src="project-17.png" alt="Project 1" class="project-img" />
+            </div>
+            <h2 class="experience-sub-title project-title">Cryptocurrency</h2>
+            <div class="btn-container">
+              <button class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/amen-ramadan/cryptocurrency'">
+                Github
+              </button>
+              <button class="btn btn-color-2 project-btn"
+                onclick="location.href='https://cryptocurrency-ochre.vercel.app/'">
+                Live Demo
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img loading="lazy" src="project-2.png" alt="Project 2" class="project-img" />
             </div>
             <h2 class="experience-sub-title project-title">Prayers Timings</h2>
             <div class="btn-container">
@@ -719,7 +749,7 @@
           </div>
           <div class="details-container color-container">
             <div class="article-container">
-              <img src="project-3.png" alt="Project 3" class="project-img" />
+              <img loading="lazy" src="project-3.png" alt="Project 3" class="project-img" />
             </div>
             <h2 class="experience-sub-title project-title">Saffrny</h2>
             <div class="btn-container">
@@ -734,7 +764,7 @@
           </div>
           <div class="details-container color-container">
             <div class="article-container">
-              <img src="project-4.png" alt="Project 4" class="project-img" />
+              <img loading="lazy" src="project-4.png" alt="Project 4" class="project-img" />
             </div>
             <h2 class="experience-sub-title project-title">Weather API React</h2>
             <div class="btn-container">
@@ -749,7 +779,7 @@
           </div>
           <div class="details-container color-container">
             <div class="article-container">
-              <img src="project-16.png" alt="Project 16" class="project-img" />
+              <img loading="lazy" src="project-16.png" alt="Project 16" class="project-img" />
             </div>
             <h2 class="experience-sub-title project-title">Full Stack Ecommerce</h2>
             <div class="btn-container">
@@ -761,7 +791,7 @@
           </div>
           <div class="details-container color-container">
             <div class="article-container">
-              <img src="project-6.png" alt="Project 6" class="project-img" />
+              <img loading="lazy" src="project-6.png" alt="Project 6" class="project-img" />
             </div>
             <h2 class="experience-sub-title project-title">Special Template JS</h2>
             <div class="btn-container">
@@ -777,7 +807,7 @@
           </div>
           <div class="details-container color-container">
             <div class="article-container">
-              <img src="project-7.png" alt="Project 7" class="project-img" />
+              <img loading="lazy" src="project-7.png" alt="Project 7" class="project-img" />
             </div>
             <h2 class="experience-sub-title project-title">Anime Vault</h2>
             <div class="btn-container">
@@ -793,7 +823,7 @@
           </div>
           <div class="details-container color-container">
             <div class="article-container">
-              <img src="project-8.png" alt="Project 8" class="project-img" />
+              <img loading="lazy" src="project-8.png" alt="Project 8" class="project-img" />
             </div>
             <h2 class="experience-sub-title project-title">Kobash</h2>
             <div class="btn-container">
@@ -808,7 +838,7 @@
           </div>
           <div class="details-container color-container">
             <div class="article-container">
-              <img src="project-9.png" alt="Project 9" class="project-img" />
+              <img loading="lazy" src="project-9.png" alt="Project 9" class="project-img" />
             </div>
             <h2 class="experience-sub-title project-title">Arabic E-commerce</h2>
             <div class="btn-container">
@@ -823,7 +853,7 @@
           </div>
           <div class="details-container color-container">
             <div class="article-container">
-              <img src="project-10.png" alt="Project 10" class="project-img" />
+              <img loading="lazy" src="project-10.png" alt="Project 10" class="project-img" />
             </div>
             <h2 class="experience-sub-title project-title">Control Panel Arabic E-commerce</h2>
             <div class="btn-container">
@@ -831,14 +861,15 @@
                 onclick="location.href='https://github.com/amen-ramadan/hsoub-academy.git'">
                 Github
               </button>
-              <button class="btn btn-color-2 project-btn" onclick="location.href='https://amen-control-panel.netlify.app/'">
+              <button class="btn btn-color-2 project-btn"
+                onclick="location.href='https://amen-control-panel.netlify.app/'">
                 Live Demo
               </button>
             </div>
           </div>
           <div class="details-container color-container">
             <div class="article-container">
-              <img src="project-11.png" alt="Project 11" class="project-img" />
+              <img loading="lazy" src="project-11.png" alt="Project 11" class="project-img" />
             </div>
             <h2 class="experience-sub-title project-title">Hexashop</h2>
             <div class="btn-container">
@@ -853,7 +884,7 @@
           </div>
           <div class="details-container color-container">
             <div class="article-container">
-              <img src="project-12.png" alt="Project 12" class="project-img" />
+              <img loading="lazy" src="project-12.png" alt="Project 12" class="project-img" />
             </div>
             <h2 class="experience-sub-title project-title">React Cart Shopping</h2>
             <div class="btn-container">
@@ -861,14 +892,15 @@
                 onclick="location.href='https://github.com/amen-ramadan/react-cart-shopping.git'">
                 Github
               </button>
-              <button class="btn btn-color-2 project-btn" onclick="location.href='https://amen-react-cart-shopping.vercel.app/'">
+              <button class="btn btn-color-2 project-btn"
+                onclick="location.href='https://amen-react-cart-shopping.vercel.app/'">
                 Live Demo
               </button>
             </div>
           </div>
           <div class="details-container color-container">
             <div class="article-container">
-              <img src="project-13.png" alt="Project 13" class="project-img" />
+              <img loading="lazy" src="project-13.png" alt="Project 13" class="project-img" />
             </div>
             <h2 class="experience-sub-title project-title">Sass Dashboard</h2>
             <div class="btn-container">
@@ -876,14 +908,15 @@
                 onclick="location.href='https://github.com/amen-ramadan/template-4.git'">
                 Github
               </button>
-              <button class="btn btn-color-2 project-btn" onclick="location.href='https://template-4-three.vercel.app/'">
+              <button class="btn btn-color-2 project-btn"
+                onclick="location.href='https://template-4-three.vercel.app/'">
                 Live Demo
               </button>
             </div>
           </div>
           <div class="details-container color-container">
             <div class="article-container">
-              <img src="project-14.png" alt="Project 14" class="project-img" />
+              <img loading="lazy" src="project-14.png" alt="Project 14" class="project-img" />
             </div>
             <h2 class="experience-sub-title project-title">Css Template</h2>
             <div class="btn-container">
@@ -891,14 +924,15 @@
                 onclick="location.href='https://github.com/amen-ramadan/template-3.git'">
                 Github
               </button>
-              <button class="btn btn-color-2 project-btn" onclick="location.href='https://template-3-wheat.vercel.app/'">
+              <button class="btn btn-color-2 project-btn"
+                onclick="location.href='https://template-3-wheat.vercel.app/'">
                 Live Demo
               </button>
             </div>
           </div>
           <div class="details-container color-container">
             <div class="article-container">
-              <img src="project-15.png" alt="Project 15" class="project-img" />
+              <img loading="lazy" src="project-15.png" alt="Project 15" class="project-img" />
             </div>
             <h2 class="experience-sub-title project-title">Typing Speed Test Game</h2>
             <div class="btn-container">
@@ -906,14 +940,15 @@
                 onclick="location.href='https://github.com/amen-ramadan/frontend-tutorials.git'">
                 Github
               </button>
-              <button class="btn btn-color-2 project-btn" onclick="location.href='https://typing-speed-test-game-cyan.vercel.app/'">
+              <button class="btn btn-color-2 project-btn"
+                onclick="location.href='https://typing-speed-test-game-cyan.vercel.app/'">
                 Live Demo
               </button>
             </div>
           </div>
           <div class="details-container color-container">
             <div class="article-container">
-              <img src="project-5.png" alt="Project 5" class="project-img" />
+              <img loading="lazy" src="project-5.png" alt="Project 5" class="project-img" />
             </div>
             <h2 class="experience-sub-title project-title">Todo List</h2>
             <div class="btn-container">
@@ -928,7 +963,7 @@
           </div>
         </div>
       </div>
-      <img src="arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#contact'" />
+      <img loading="lazy" src="arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#contact'" />
     </section>
     <section id="contact">
       <p class="section__text__p1">Get in Touch</p>
@@ -936,8 +971,10 @@
       <div class="contact-info-upper-container">
         <div class="contact-info-container">
           <img src="email.png" alt="Email icon" class="icon contact-icon email-icon" />
-          <p><a href="mailto:amen.ramadan.dev@gmail.com?subject=Job%20Opportunity&body=Dear%20Amen%2C%0A%0A" onclick="window.location.href='mailto:amen.ramadan.dev@gmail.com?subject=Job%20Opportunity&body=Dear%20Amen%2C%0A%0A';">amen.ramadan.dev@gmail.com</a></p>
-        </div>                          
+          <p><a href="mailto:amen.ramadan.dev@gmail.com?subject=Job%20Opportunity&body=Dear%20Amen%2C%0A%0A"
+              onclick="window.location.href='mailto:amen.ramadan.dev@gmail.com?subject=Job%20Opportunity&body=Dear%20Amen%2C%0A%0A';">amen.ramadan.dev@gmail.com</a>
+          </p>
+        </div>
         <div class="contact-info-container">
           <img src="linkedin.png" alt="LinkedIn icon" class="icon contact-icon" />
           <p><a href="https://www.linkedin.com/in/amen-ramadan/">LinkedIn</a></p>
